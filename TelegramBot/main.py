@@ -4,7 +4,7 @@ import psycopg2
 import datetime
 from datetime import date, time, datetime
 
-bot = telebot.TeleBot("5918045561:AAF8hzcnyXlEeEuHu7r77Yb6Yqp0kve1nu8")
+bot = telebot.TeleBot("")
 
 conn = psycopg2.connect(database='timetable_2203', user='postgres', password='1234', host='127.0.0.1', port='5432')
 cursor = conn.cursor()
